@@ -1089,7 +1089,7 @@ address button {
 
 @media screen and (max-width: 768px) {
   body {
-    padding: 0.5rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
   }
   html {
     font-size: 13px;
@@ -1110,10 +1110,16 @@ address button {
     width: 100%;
   }
   .header {
-    width: 98%;
+    width: 97%;
+    background-color: black;
+  }
+  .header .logo-div span {
+    color: white;
   }
   .header .bars {
     display: block;
+    margin-top: 1rem;
+    margin-right: 1rem;
   }
   .header #toggle:checked ~ nav {
     display: none;
@@ -1140,7 +1146,7 @@ address button {
   }
   .hero-section {
     width: 100%;
-    background-position: center;
+    background-position: cover;
     background-size: 100%;
   }
   .hero-section .hero-div {
@@ -1157,7 +1163,7 @@ address button {
   }
   .section-2 {
     background-position: center;
-    background-size: 100%;
+    background-size: 110%;
     padding-top: 5rem;
   }
   .section-2 div {
