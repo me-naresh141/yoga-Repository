@@ -4,6 +4,11 @@ let value = 0
 let workshop = document.querySelector('.total-workshop')
 let year = document.querySelector('.total-year')
 let lesson = document.querySelector('.total-lesson')
+let bar = document.querySelector('.bars')
+let ulhead = document.querySelector('.ul-header')
+bar.addEventListener('click', () => {
+  ulhead.style.display = 'block'
+})
 
 section.addEventListener('mouseover', () => {
   for (let i = 1; i <= 5000; i++) {
