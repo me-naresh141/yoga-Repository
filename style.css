@@ -874,7 +874,10 @@ h4 {
 
 footer {
   background-color: rgb(210, 145, 188);
-  padding: 5rem 0;
+}
+footer div {
+  display: grid;
+  place-content: center;
 }
 footer div a {
   font-size: 2rem;
@@ -885,6 +888,10 @@ footer address p {
   font-size: 1.5rem;
   line-height: 1.5;
 }
+footer li {
+  display: grid;
+  place-content: center;
+}
 footer li a {
   padding-right: 1.5rem;
 }
@@ -892,7 +899,6 @@ footer small {
   align-items: center;
   display: flex;
   justify-content: center;
-  margin-top: 6rem;
   color: rgb(242, 222, 235);
 }
 
@@ -1229,14 +1235,19 @@ address button {
   }
   footer .container div {
     width: 50%;
+    display: grid;
+    place-content: start;
   }
   footer .container address {
+    text-align: center;
     width: 100%;
     order: 1;
     margin-top: 2rem;
   }
   footer .container ul {
     width: 50%;
+    display: flex;
+    place-content: end;
   }
   footer small {
     text-align: center;
